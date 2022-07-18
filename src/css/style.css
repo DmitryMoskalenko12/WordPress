@@ -1,14 +1,19 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: Roboto, sans-serif;
 }
 .container{
+  position: relative;
   display: block;
   margin: 0 auto;
   width: 1140px;
 }
 .main{
-  height: 800px;
-  width: 1920px;
+  min-height: 800px;
   padding: 38px 0px 62px 0px ;
   background: url(../img/main_bg.svg) center center/cover no-repeat;
 }
@@ -18,7 +23,6 @@
 }
 .main__text{
   margin-top: 10px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 15px;
   color:white;
@@ -29,10 +33,8 @@
 .title__big{
 margin-top: 48px;
 margin-bottom: 0px;
-font-family: 'Roboto';
 font-weight: 900;
 font-size: 41px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #F9BF3B;
@@ -40,10 +42,8 @@ color: #F9BF3B;
 
 .this__simple{
 margin-top: 0px;
-font-family: 'Roboto';
 font-weight: 900;
 font-size: 80px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -51,29 +51,23 @@ color: #FFFFFF;
 
 .this__doit{
 margin-top: 5px;
-font-family: 'Roboto';
 font-weight: 900;
 font-size: 41px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #F9BF3B;
 }
 .text2{
 margin-top: 22px;
-font-family: 'Roboto-Light';
 font-weight: 300;
 font-size: 21px;
 line-height: 28px;
-align-items: center;
 text-align: center;
 color: #FFFFFF;
 }
 .sale{
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 21px;
-align-items: center;
 text-align: center;
 color: #F9BF3B;
 }
@@ -86,19 +80,16 @@ color: #F9BF3B;
   border: none;
   border-radius: 0%;
   background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-  font-family: 'Roboto-Condensed';
+  font-weight: 500;
   font-size: 21px;
-  align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF; 
   cursor: pointer;
 }
 .more{
-font-family: 'Roboto-Thin';
 font-weight: 100;
 font-size: 15px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -111,16 +102,13 @@ margin-top: 95px;
   margin-top: 5px;
 }
 .waiting{
-  height: 604px;
-  width: 1920px;
+  min-height: 604px;
   padding: 86px 0px 74px 0px;
   background: url(../img/Задний\ фон.png) center center/cover no-repeat;
 }
 .waiting__title{
-font-family: 'Roboto-Regular';
 font-weight: 400;
 font-size: 30px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #252525;
@@ -133,10 +121,8 @@ margin-top: 18px;
 background: #F9BF3B;
 }
 .vebinar{
-font-family: 'Roboto-Regular';
 font-weight: 400;
 font-size: 23px;
-align-items: center;
 text-align: center;
 color: #4A4A4A;
 margin-top: 19px;
@@ -154,36 +140,31 @@ margin-top: 19px;
 }
 .block__text{
 margin-top: 26px;
-font-family: 'Roboto-Light';
 font-weight: 300;
 font-size: 15px;
 line-height: 21px;
-align-items: center;
 text-align: center;
 color: #4A4A4A;
 }
 .optimization{
-  width: 1920px;
-  position: relative;
+  min-height: 502px;
 }
 .opt__text1{
-  text-align: center;
-font-family: 'Roboto-Black';
+text-align: center;
 font-weight: 900;
 font-size: 30px;
-align-items: center;
 text-transform: uppercase;
 color: #299CBD;
 margin-top: 106px;
+margin-left: 340px;
 }
 .opt__maintext{
   width: 726px;
   margin: 0 auto;
-  font-family: 'Roboto-Mixed';
+  margin-left: 391px;
   font-weight: 300;
   font-size: 17px;
   line-height: 27px;
-  align-items: center;
   color: #4A4A4A;
   margin-top: 13px;
   margin-bottom: 46px;
@@ -191,32 +172,26 @@ margin-top: 106px;
   
 }
 .opt__dark{
-font-family: 'Roboto-Mixed';
-font-style: normal;
 font-weight: 700;
 font-size: 17px;
 line-height: 27px;
-align-items: center;
 color: #4A4A4A;
 }
 .opt__woman{
   position: absolute;
-  margin: 45px 923px 0px 129px;
-  top:-100px;
-  right:160px;
+  top:-40px;
+  left:-200px;
   z-index: -1;
 }
 .you__can{
-  width: 1920px;
+  min-height: 450px;
   padding-top: 86px;
   padding-bottom: 69px;
   background: url(../img/second_bg.png) center center/cover no-repeat;
 }
 .you__can .you__cantext{
-font-family: 'Roboto-Regular';
 font-weight: 400;
 font-size: 30px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #EFEFEF;
@@ -248,7 +223,6 @@ border-radius: 100%;
 .you__can .you__canwrapper .own .you__cantextitem{
 margin-top: 25px;
 width: 200px;
-font-family: 'Roboto-Light';
 font-weight: 300;
 font-size: 17px;
 line-height: 20px;
@@ -258,7 +232,7 @@ text-align: center;
 }
 
 .gift{
-  width: 1920px;
+  min-height: 631px;
   padding-top: 88px;
   padding-bottom: 88px;
   background: url(../img/Фонподарок.png) center center/cover no-repeat;
@@ -268,12 +242,10 @@ text-align: center;
   margin: 0 auto;
 }
 .gift .gift__descr{
-font-family: 'Roboto-Regular';
 margin-top: 45px;
 font-weight: 400;
 font-size: 30px;
 line-height: 43px;
-align-items: center;
 text-align: center;
 color: #252525;
 }
@@ -285,9 +257,8 @@ width: 313px;
 height: 72px;
 border: none;
 background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-font-family: 'Roboto-Condensed';
+font-weight: 400;
 font-size: 21px;
-align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -295,7 +266,7 @@ cursor: pointer;
 }
 
 .dedlain{
-  width: 1920px;
+  min-height: 666px;
   padding-top: 89px;
   padding-bottom: 51px;
 }
@@ -305,7 +276,6 @@ cursor: pointer;
   margin: 0 auto;
 }
 .dedlain .vebinar1{
-font-family: 'Roboto-Regular';
 font-weight: 400;
 font-size: 30px;
 text-align: center;
@@ -314,7 +284,6 @@ color: #252525;
 margin-top: 36px;
 }
 .dedlain .vebinar2{
-font-family: 'Roboto-Black';
 font-weight: 900;
 font-size: 36px;
 text-align: center;
@@ -323,8 +292,6 @@ color: #299CBD;
 margin-top: 30px;
 }
 .dedlain .vebinar3{
-font-family: 'Roboto-Regular';
-font-style: normal;
 font-weight: 400;
 font-size: 23px;
 text-align: center;
@@ -333,7 +300,7 @@ margin-top: 25px;
 }
 
 .footerend{
-  width: 1920px;
+  min-height: 169px;
   padding-top: 57px;
   padding-bottom: 69px;
   background: url(../img/футер.png) center center/cover no-repeat;
@@ -346,7 +313,6 @@ margin-top: 25px;
   margin: 0 auto;
 }
 .footerend .info .support{
-font-family: 'Roboto-Light';
 font-weight: 300;
 font-size: 15px;
 text-align: center;
@@ -363,7 +329,6 @@ color: #888888;
 }
 .footerend .support1{
 margin-top: 3px;
-font-family: 'Roboto-Light';
 font-weight: 300;
 font-size: 15px;
 text-align: center;
